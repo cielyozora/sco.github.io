@@ -1,0 +1,44 @@
+nav {
+  width: 100%;
+background-color: #6a93cb;
+background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+  overflow: auto;
+  border: 1px solid #ccc;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: 5px;
+  margin-left:15px;
+}
+
+nav a{
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: Krona One;
+  color: f2f2f2;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+nav a:hover {
+  background: purple;
+  transition: 0.5s;
+  text-transform: uppercase;
+
+
+}
