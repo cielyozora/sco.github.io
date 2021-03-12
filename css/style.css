@@ -1,0 +1,98 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hed p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(89, 89, 89);
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+
+.im1 a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.im img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.im1{
+    background-color: rgb(250, 241, 246);
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+.im1 p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:  sans-serif;
+    margin-top: 10px;
+   padding: 10px;
+   color: rgb(201, 99, 161);
+   font-weight: 600;
+   font-size: 20px;
+}
+.im1 h1{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.im1 button{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 45px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(201, 99, 161);
+    border: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: bold;
+
+}
+.hed2 p{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(89, 89, 89);
+    font-weight: bold;
+}
+
+@media  screen and (max-width:700px) {
+    .im1{
+        width: 80%;
+    }
+    .im img{
+        width: 200px;
+        height: 200px;
+    }
+    .im1 button{
+        margin-top: 10px;
+    }
+    .hed2 p{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
